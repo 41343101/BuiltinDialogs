@@ -22,6 +22,9 @@ private:
     QPushButton  *pagePushBtn;
     QPushButton  *progressPushBtn;
     QPushButton  *printPushBtn;
+    QPushButton  *calPushBtn;
+private slots:
+    void doPushBtn();
 };
 
 #endif // CBUILTINDLG_H
